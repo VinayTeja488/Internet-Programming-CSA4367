@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .feedback-details {
+            max-width: 600px;
+            margin: auto;
+        }
+        .feedback {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .feedback h2 {
+            margin-top: 0;
+        }
+        .feedback p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body style="background-color:lightgreen;">
+    <div class="feedback-details">
+        <div class="feedback">
+            <h2>Feedback from Jagadeesh</h2>
+            <p>Email: jagadeesg@gmail.com</p>
+            <p>Very good</p>
+        </div>
+        <div class="feedback">
+            <h2>Feedback from Bharath</h2>
+            <p>Email: Bharath@gmail.com</p>
+            <p>Good</p>
+        </div>
+        <!-- Add more feedback details as needed -->
+    </div>
+</body>
+</html>
