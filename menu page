@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>job</title>
+<style>
+body{
+background-image:url('job_back.png');
+background-size:cover;
+height:80vh;
+size:300px;
+background-position:center;
+background-repeat:no-repeat;
+}
+</style>
+
+
+</head>
+<script>
+document.getElementById('dropdown').addEventListener('change', function()
+ {
+    var selectedOption = this.options[this.selectedIndex];
+    if (selectedOption.value !== '#')
+ {
+        window.location.href = selectedOption.value;
+    }
+}
+document.getElementById('dropdown1').addEventListener('change', function()
+ {
+    var selectedOption = this.options[this.selectedIndex];
+    if (selectedOption.value !== '#')
+ {
+        window.location.href = selectedOption.value;
+    }
+document.getElementById('dropdown2').addEventListener('change', function()
+ {
+    var selectedOption = this.options[this.selectedIndex];
+    if (selectedOption.value !== '#')
+ {
+        window.location.href = selectedOption.value;
+    }
+
+}
+
+
+</script>
+<body >
+<h1><center>Job Application form</center></h1>
+<form>
+<select id="dropdown"  onchange="window.location.href=this.value"">
+    <option value="#">Admin</option>
+    <option value="login.html">	Login</option>
+    <option value="approve_director.html">Approve director</option>
+<option value="viewreport.html">Viewreport</option>
+
+</select>
+
+<select id="dropdown1"  onchange="window.location.href=this.value"">
+    <option value="#">Director</option>
+    <option value="register page.html">Register</option>
+    <option value="login.html">	Login</option>
+<option value="postvaccancy.html">Post vaccancy</option>
+<option value="View_vaccancy.html">View vaccancy</option>
+<<option value="Login.html">Logout</option>
+</select>
+
+<select id="dropdown2"  onchange="window.location.href=this.value"">
+    <option value="#">User</option>
+    <option value="register page.html">Register</option>
+    <option value="login.html">	Login</option>
+<option value="search_vaccancy.html">Search Vaccancy</option>
+<option value="apply_vaccancy.html">Applyvaccancy</option>
+<<option value="Login.html">Logout</option>
+</select>
+</form>
+
+</body>
+</html>
